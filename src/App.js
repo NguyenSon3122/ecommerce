@@ -1,13 +1,12 @@
 import React from 'react';
+import Router from "./router"
+import "./components/@vuexy/rippleButton/RippleButton"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>d</h1>
-      </header>
-    </div>
-  );
+import "react-perfect-scrollbar/dist/css/styles.css"
+import "prismjs/themes/prism-tomorrow.css"
+
+const App = props => {
+    return <Router />
 }
 
 export default App;
